@@ -1,0 +1,26 @@
+- type: job
+  id: ColdWarrior
+  name: job-name-cold-warrior
+  description: job-description-cold-warrior
+  playTimeTracker: JobColdWarrior
+  startingGear: ColdWarriorGear
+  icon: "JobIconColdWarrior"
+  supervisors: job-supervisors-hop
+  access:
+  - Service
+  - Maintenance
+
+- type: startingGear
+  id: ColdWarriorGear
+  equipment:
+    head: ClothingHeadHelmetBasic
+    jumpsuit: ClothingUniformJumpsuitAncient
+    back: ClothingBackpackFilled
+    id: PassengerPDA
+    ears: ClothingHeadsetService
+    gloves: ClothingHandsGlovesColorBlack
+    shoes: ClothingShoesColorBlack
+    belt: ClothingBeltUtility
+  innerClothingSkirt: UniformShortsRedWithTop
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
